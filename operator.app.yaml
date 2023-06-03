@@ -16,9 +16,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/0xFelix/gitops-demo.git
-        targetRevision: HEAD
-        path: applicationsets/virtualization/manifests
+        repoURL: https://github.com/fabiand/gitops-demo.git
+        targetRevision: main
+        path: operator/manifests
       destination:
         server: "{{server}}"
         namespace: openshift-cnv
