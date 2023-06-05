@@ -15,9 +15,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/0xFelix/gitops-demo.git
-        targetRevision: HEAD
-        path: "applicationsets/demo-vm/kustomize/{{metadata.labels.env}}"
+        repoURL: https://github.com/fabiand/gitops-demo.git
+        targetRevision: main
+        path: "workloads/demo-vm/kustomize/{{metadata.labels.env}}"
         kustomize:
           commonAnnotations:
             managed-cluster: "{{nameNormalized}}"
