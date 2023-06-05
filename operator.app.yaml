@@ -17,7 +17,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/fabiand/gitops-demo.git
-        targetRevision: main
+        targetRevision: fabiand-streamline
         path: operator/
       destination:
         server: "{{server}}"
